@@ -1,0 +1,43 @@
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgreen;
+    text-align: center;
+}
+
+body {
+    display: grid;
+    width: 90vw;
+    height: 90vw;
+    background-color: darkslateblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.prvni {
+    grid-area: 4 / 6 / 17 / 15;
+    background-color: mediumturquoise;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-auto-rows: auto;
+    background-color: beige;
+    gap: 20px, 20px;
+    width: 80vw;
+}
+
+.prvni:hover {
+    transform: scale(0.65);
+    
+}
+
